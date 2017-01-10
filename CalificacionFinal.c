@@ -13,7 +13,7 @@ int main() {
   int examen1, examen2, examen3, examenfinal, trabajofinal;
   float calculo, porcentaje1 = 0.55, porcentaje2 = 0.30, porcentaje3 = 0.15;
 
-  printf("Bienvendio al cálculo de calificaciones.\n\n");
+  printf("Bienvenido al cálculo de calificaciones.\n\n");
 
   printf("\nIngrese calificacion primer examen: "); scanf("%i", &examen1);
   printf("Ingrese calificacion segundo examen: "); scanf("%i", &examen2);
