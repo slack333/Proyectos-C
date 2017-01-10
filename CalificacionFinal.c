@@ -15,11 +15,11 @@ int main() {
 
   printf("\nBienvenido al cálculo de calificaciones.\n\n");
 
-  printf("\nIngrese calificacion primer examen: "); scanf("%i", &examen1);
-  printf("Ingrese calificacion segundo examen: "); scanf("%i", &examen2);
-  printf("Ingrese calificacion tercer examen: "); scanf("%i", &examen3);
-  printf("Ingrese califiacion examen final: "); scanf("%i", &examenfinal);
-  printf("Ingrese calificacion trabajo final: "); scanf("%i", &trabajofinal);
+  printf("\nIngrese calificación primer examen: "); scanf("%i", &examen1);
+  printf("Ingrese calificación segundo examen: "); scanf("%i", &examen2);
+  printf("Ingrese calificación tercer examen: "); scanf("%i", &examen3);
+  printf("Ingrese calificación examen final: "); scanf("%i", &examenfinal);
+  printf("Ingrese calificación trabajo final: "); scanf("%i", &trabajofinal);
 
   calculo = (((examen1 + examen2 + examen3) / 3) * porcentaje1) + (examenfinal * porcentaje2) + (trabajofinal * porcentaje3);
 
