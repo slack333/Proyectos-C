@@ -22,7 +22,7 @@ int main() {
     printf("Ha funcionado el limpiado de pantalla\n");
 
   } else {
-    fflush(stdin);
+    fflush(stdin); //funciona solo en windows, se utiliza para borrar el buffer
     printf("No ha funcionado el limpiado de pantalla\n");
     printf("Por favor, digite el número 1: "); scanf("%c", &tecla);
 
