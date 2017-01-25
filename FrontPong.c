@@ -216,7 +216,7 @@ void update(char campo [V][H], int pelotaX, int pelotaY, int inijugador, int fin
 
 }
 
-void menu() //Escojemos la dificultad del juego.
+void menu() //Menú de Inicio del Juego.
 {
 	char d;
 	system("clear");
